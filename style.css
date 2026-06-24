@@ -1,0 +1,174 @@
+body {
+background-color: #f4f7fb;
+color: #102040;
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0; }
+/* Header style */
+.header {
+background-color: #3157c9;
+color: rgb(255, 255, 255);
+padding: 25px; }
+.header h1 {
+font-size: 36px; }
+.header a {
+color: white;
+margin: 10px;
+text-decoration: none; }
+/* General section style */
+.section {
+background-color: white;
+padding: 30px;
+margin: 15px;
+border: 1px solid #d9e2f3;
+border-radius: 12px; }
+/* Hero section */
+.hero img {
+width: 150px;
+height: 150px;
+border-radius: 50%; }
+.hero h2 {
+font-size: 30px;
+color: #102040; }
+.hero h3 {
+color: #3157c9; }
+
+.about-me{
+    background-color: #e8f5e9; /* لون أخضر فاتح */
+    padding: 30px;
+    margin-top: 40px; /* يبعد عن القسم اللي فوقه */
+    border-radius: 12px;
+    text-align: center;
+}
+
+.about-me h2{
+    color: #2e7d32;
+}
+
+.about-me p{
+    line-height: 1.8;
+}
+
+.about-me blockquote{
+    background-color: #dcedc8;
+    padding: 12px;
+    border-radius: 8px;
+    font-style: italic;
+    margin-top: 8px;
+}
+ #quote { 
+        background-color: #c2ddc4;
+        width: 35%;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        
+ }
+ .skills{
+    background:#f8f6ef;
+    padding:30px;
+    margin-top:40px;
+    border-radius:10px;
+}
+
+.skills h2{
+    text-align:center;
+    color:#f39c12;
+    margin-bottom:30px;
+}
+
+.skill{
+    display:flex;
+    align-items:center;
+    margin:20px 450px;
+}
+
+.skill-name{
+    width:150px;
+    font-weight:bold;
+}
+
+.skill-desc{
+    color:#555;
+}
+.projects {
+  background-color: #f5f0ff;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top:40px;
+  
+}
+
+.projects h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  color: #6a0dad;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.project-card p {
+  color: #555;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.contact {
+  background-color: #ffeef0;
+  padding: 30px;
+  margin-top:40px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.contact h2 {
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ffeef0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #c2185b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
